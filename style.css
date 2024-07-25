@@ -1,0 +1,35 @@
+/* SECTION NAVIGATION BAR  */
+#navigation img{
+    height: 100px;
+    position: relative;
+    top: -20px;
+    left: 130px;
+}
+#navigation{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+#navigation select{
+    height: 35px;
+    width: 120px;
+}
+#btn1{
+    height: 35px;
+    width: 75px;
+}
+#navigation select, #btn1{
+    position: relative;
+    top: 20px;
+    left: 800px;
+}
+#bgimg1{
+    position: relative;
+    top: -120px;
+    left: -8px;
+    z-index: -1;
+    width: 1357px;
+    height: 700px;
+    filter: brightness(40%);
+    
+}
