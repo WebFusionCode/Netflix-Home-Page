@@ -1,33 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <section id="navbar">
         <nav>
             <div id="navigation">
                 <img src="Images/netflixlogo.jpg.png" alt="Netflix Logo">
+
+                <div id="translate">
+                    <img src="Images/translate_16dp_FFFFFF_FILL0_wght400_GRAD0_opsz20.png" alt="">
+                </div>
+                <select name="translate" id="trans">
+                    <option value="English">English</option>
+                    <option value="French">हिंदी</option>
+                </select>
+                <button id="btn1">Sign in</button>
+            </div>
+        </nav>
+        <img id="bgimg1" src="Images/Netflixbackgound.jpg" alt="Background Image">
+        <div id="sentence1">
+            <h1>Unlimited movies, TV shows, and more</h1>
+            <p id="p1">Watch anywhere. Cancle anytime.</p>
+            <p id="p2">Ready to watch? Enter your email to create or restart your membership.</p>
+        </div>
+        <div class="holder">
+        <input type="email" id="emailbx" placeholder="Email address">
+        <button id="btn2">Get Started ></button>
+    </div>
+    </section><hr id="horizontal1">
+    <section id="pannel1">
+        <div id="innerpannel1">
+            <h1>Enjoy on your TV</h1>
+            <pre>Watch on smart TVs, PlayStation, Xbox,
+Chromecast, AppleTV, Blu-ray players and
+more.
+            </pre>
+            <img src="Images/tv.png" alt="TV Image">
             
-        
-        <select name="translate" id="trans">
-            <option value="English">English</option>
-            <option value="French">हिंदी</option>
-        </select>
-        <button id="btn1">Sign in</button>
+
+        </div>
+        <div class="video1">
+        <video id="tvvideo1" src="Videos/videoplayback.mp4" autoplay muted loop></video>
     </div>
-    </nav>
-    <img id="bgimg1" src="Images/Netflixbackgound.jpg" alt="Background Image">
-    <div id="sentence1">
-        <h1>Unlimited movies, TV shows, and more</h1>
-        <p>Watch anywhere. Cancle anytime.</p>
-        <p>Ready to watch? Enter your email to createor restart your membership.</p>
-    </div>
-    <input type="email" id="emailbx" placeholder="Email address">
-    <button>Get Started ></button>
     </section>
 </body>
+
 </html>

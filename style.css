@@ -1,27 +1,56 @@
 /* SECTION NAVIGATION BAR  */
 #navigation img{
-    height: 100px;
+    height: 103px;
     position: relative;
-    top: -20px;
-    left: 130px;
+    top: -18px;
+    left: 195px;
+}
+#translate img{
+    height: 20px;
+    position: relative;
+    top: 25px;
+    left: 843px;
+    z-index: 3;
 }
 #navigation{
     display: flex;
     position: relative;
     flex-direction: row;
+    right: 60px;
 }
 #navigation select{
-    height: 35px;
-    width: 120px;
+    height: 32px;
+    width: 125px;
+    margin: 0px 36px ;
+    position: relative;
+    text-align: end;
+    font-size: 15.5px;
+    /* font-weight: bold; */
+    background-color: rgba(36, 33, 33, 0.596);
+    color: white;
+    border:1.5px solid grey;
+    border-radius: 5px;
+    padding-right: 18px;
 }
+
 #btn1{
-    height: 35px;
+    height: 31px;
     width: 75px;
+    border: none;
+    border-radius: 5px ;
+    position: relative;
+    left: 765px;
+    top: 20px;
+    background-color: rgb(219, 19, 19);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+
 }
-#navigation select, #btn1{
+#navigation select{
     position: relative;
     top: 20px;
-    left: 800px;
+    left: 776px;
 }
 #bgimg1{
     position: relative;
@@ -35,7 +64,134 @@
 }
 #sentence1 {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    bottom: 570px;
+}
+#sentence1 h1{
+    font-size: 43px;
+    font-weight: 800;
+    font-family:sans-serif;
+    color: white;
+}
+#sentence1 p{
+    color: white;
+
+}
+#p1{
+    position: relative;
+    bottom: 40px;
+    font-size: 25px;
+    font-family:sans-serif;
+    font-weight: 500;
+}
+#p2{
+    position: relative;
+    bottom: 60px;
+    font-size: 21px;
+    font-family:sans-serif;
+    font-weight: 500;
+}
+.holder{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    bottom: 600px;
+    left: 13px;
+}
+#emailbx{
+    position: relative;
+    bottom: 30px;
+    right: 13px;
+    width: 25%;
+    height: 50px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: rgba(36, 33, 33, 0.596);
+    border: 1px solid grey;
+    color: white;
+    font-weight: bold;
+    padding: 0px 15px;
+    
+}
+#emailbx::placeholder{
+    
+    color: rgb(197, 197, 197);
+    font-weight:500;
+}
+#btn2{
+    position: relative;
+    bottom: 30px;
+    right: 7px;
+    width: 220px;
+    height: 53px;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(255, 21, 21);
+    border: none;
+}
+
+#horizontal1{
+    position: relative;
+    right: 9px;
+    bottom: 461px;
+    color: rgb(83, 83, 83);
+    border: 4px solid rgb(83, 83, 83);
+    width: 101.4%;
+}
+#pannel1{
+    background-color: black;
+    position: relative;
+    bottom: 469px;
+    width: 101.4%;
+    right: 9px;
+    height: 530px;
+    z-index: 1;
+}
+#innerpannel1{
+    display: flex;
+}
+#innerpannel1 h1{
+    font-size: 43px;
+    font-weight: 800;
+    font-family:sans-serif;
+    color: white;
+    position: relative;
+    left: 160px;
+    top: 130px;
+}
+#innerpannel1 pre{
+    position: relative;
+    font-size: 25px;
+    font-family:sans-serif;
+    font-weight: 500;
+    color: white;
+    width: 400px;
+    top: 220px;
+    right: 230px ;
+
+
+}
+#innerpannel1 img{
+    height: 380px;
+    position: relative;
+    top: 67px;
+    right: 110px;
+    z-index: 5;
+}
+.video1{
+    position: absolute;
+    left: 745px;
+    bottom: 26px;
+    z-index: -1;
+}
+#tvvideo1{
+    height:500px; 
+    width:385px;
 }
