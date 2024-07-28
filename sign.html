@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  details summary {
+    list-style: none; /* Remove the default marker */
+    cursor: pointer; /* Change cursor to pointer */
+    position: relative; /* For positioning the icon */
+    padding-left: 20px; /* Space for the icon */
+  }
+
+  details summary::before {
+    content: '+'; /* Display plus sign */
+    position: absolute;
+    left: 0;
+  }
+
+  details[open] summary::before {
+    content: 'x'; /* Change to minus sign when open */
+  }
+
+  details summary::-webkit-details-marker {
+    display: none; /* For WebKit browsers (Chrome, Safari, etc.) */
+  }
+</style>
+</head>
+<body>
+
+<details>
+  <summary>Click me to toggle content</summary>
+  <p>This is the hidden content.</p>
+</details>
+
+</body>
+</html>
