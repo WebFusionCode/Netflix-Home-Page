@@ -1,5 +1,6 @@
 *{
     max-height: 3900px;
+    max-width: 1500px;
 }
 /* SECTION NAVIGATION BAR  */
 #navigation img{
@@ -58,7 +59,6 @@
 #bgimg1{
     position: relative;
     top: -120px;
-    left: -8px;
     z-index: -1;
     width: 1500px;
     height: 700px;
